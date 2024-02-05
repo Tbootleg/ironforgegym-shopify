@@ -25,6 +25,9 @@
 
 .price__regular .price-item--regular {
   margin-right: 0;
+  color: #b3252c;
+  font-weight: 500;
+  font-family: 'Oswald',sans-serif;
 }
 
 .price:not(.price--show-badge) .price-item--last:last-of-type {

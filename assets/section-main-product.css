@@ -342,6 +342,9 @@ a.product__text {
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
+  text-transform:uppercase;
+  font-family:'Oswald', sans-serif;
+  font-weigth: 500;
 }
 
 .product__title > * {
