@@ -1,0 +1,44 @@
+{{ 'get-in-touch.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+.section-{{ section.id }}-padding {
+  padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+  padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+}
+
+@media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+}
+{%- endstyle -%}
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+    <div class="gettouch-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="gt-text">
+              <i class="fa fa-map-marker"></i>
+              <p>2000 S I-35 Frontage Rd Suite J1, Round Rock, TX 78681, USA</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gt-text">
+              <i class="fa fa-mobile"></i>
+              <p>2000 S I-35 Frontage Rd Suite J1, Round Rock, TX 78681, USA</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gt-text">
+              <i class="fa fa-envelope"></i>
+              <p>2000 S I-35 Frontage Rd Suite J1, Round Rock, TX 78681, USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
