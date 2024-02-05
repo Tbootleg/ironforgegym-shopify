@@ -1,0 +1,15 @@
+.gettouch-section .container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.gettouch-section .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.gettouch-section .container .row .col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
