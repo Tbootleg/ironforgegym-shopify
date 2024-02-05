@@ -72,9 +72,9 @@
 }
 
 /* base */
-.header .header__inline--menu .list-menu--inline li a {
+.header .header__inline--menu .list-menu--inline li {
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fffffff;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 15px;
