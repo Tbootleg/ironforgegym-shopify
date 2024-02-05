@@ -36,6 +36,10 @@
   float: left;
   margin-right: 20px;
 }
+.gettouch-section .container .row .col-md-4 .gt-text ul {
+  overflow: hidden;
+  padding-top: 20px;
+}
 .gettouch-section .container .row .col-md-4 .gt-text ul li {
     list-style: none;
     font-size: 14px;
@@ -43,4 +47,7 @@
     margin-right: 25px;
     display: inline-block;
     position: relative;
+}
+.gettouch-section .container .row .col-md-4 .gt-text.email p {
+    padding-top: 20px;
 }
