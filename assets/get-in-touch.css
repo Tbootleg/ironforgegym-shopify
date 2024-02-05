@@ -1,3 +1,7 @@
+.gettouch-section {
+  background: #0a0a0a;
+  padding: 30px 0 15px;
+}
 .gettouch-section .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -12,6 +16,12 @@
 .gettouch-section .container .row .col-md-4 {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
+}
+.gettouch-section .container .row .col-md-4 .gt-text p{
+  overflow: hidden;
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-top: 10px;
 }
 .gettouch-section .container .row .col-md-4 .gt-text i {
   font-size: 30px;
