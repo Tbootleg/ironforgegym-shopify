@@ -4,6 +4,9 @@
 .iron-forge-footer-section .container .row .iron-forge-footer-info {
   color: #c4c4c4;
 }
+.iron-forge-footer-section .container .row .iron-forge-footer-info .list-social .list-social__item  .list-social__link {
+  color: #c4c4c4;
+}
 .iron-forge-footer-section .container .row .iron-forge-footer-links h4 {
   color: #ffffff;
 }
@@ -11,5 +14,9 @@
   list-style: none;
 }
 .iron-forge-footer-section .container .row .iron-forge-footer-links ul li {
+  color: #c4c4c4;
+}
+.iron-forge-footer-section .container .row .iron-forge-footer-links ul li a {
+  text-decoration: none;
   color: #c4c4c4;
 }
