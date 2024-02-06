@@ -1,5 +1,6 @@
 .iron-forge-footer-section {
   background: #000000;
+  padding-top: 50px;
 }
 .iron-forge-footer-section .container{
   max-width: 1170px;
@@ -21,11 +22,18 @@
 .iron-forge-footer-section .container .row .iron-forge-footer-info .list-social .list-social__item  .list-social__link {
   color: #c4c4c4;
 }
+.iron-forge-footer-section .container .row .iron-forge-footer-info .list-social {
+  justify-content: flex-start;
+}
 .iron-forge-footer-section .container .row .iron-forge-footer-links h4 {
   color: #ffffff;
+  font-family: 'Oswald' ,sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
 .iron-forge-footer-section .container .row .iron-forge-footer-links ul {
   list-style: none;
+  padding-left: 0px;
 }
 .iron-forge-footer-section .container .row .iron-forge-footer-links ul li {
   color: #c4c4c4;
