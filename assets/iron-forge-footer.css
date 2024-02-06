@@ -1,6 +1,7 @@
 .iron-forge-footer-section {
   background: #000000;
   padding-top: 50px;
+  padding-bottom: 30px;
 }
 .iron-forge-footer-section .container{
   max-width: 1170px;
@@ -12,6 +13,8 @@
 .iron-forge-footer-section .container .row .col-md-4 {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .iron-forge-footer-section .container .row .iron-forge-footer-info {
   color: #c4c4c4;
