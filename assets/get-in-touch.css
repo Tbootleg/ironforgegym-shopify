@@ -6,7 +6,6 @@
   max-width: 1170px;
   margin: 0 auto;
 }
-
 .gettouch-section .container .row {
   display: flex;
   flex-wrap: wrap;
@@ -20,6 +19,9 @@
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+}
+.gettouch-section .container .row .col-md-4 .gt-text {
+  margin-bottom: 30px;
 }
 .gettouch-section .container .row .col-md-4 .gt-text p{
   overflow: hidden;

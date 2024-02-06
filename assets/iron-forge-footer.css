@@ -1,7 +1,6 @@
 .iron-forge-footer-section {
   background: #000000;
   padding-top: 50px;
-  padding-bottom: 30px;
 }
 .iron-forge-footer-section .container{
   max-width: 1170px;
@@ -15,6 +14,7 @@
   max-width: 33.333333%;
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 30px;
 }
 .iron-forge-footer-section .container .row .iron-forge-footer-info {
   color: #c4c4c4;
@@ -33,6 +33,7 @@
   font-family: 'Oswald' ,sans-serif;
   font-size: 24px;
   font-weight: 500;
+  margin-top: 0px;
 }
 .iron-forge-footer-section .container .row .iron-forge-footer-links ul {
   list-style: none;
