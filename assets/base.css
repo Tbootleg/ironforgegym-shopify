@@ -873,11 +873,14 @@ summary::-webkit-details-marker {
 }
 
 .title-wrapper--no-top-margin > .title {
+  font-size: calc(var(--font-heading-scale) * 4rem);
   margin-top: 0;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   text-align: center;
+  margin-bottom: 40px;
+
 }
 
 .subtitle {
