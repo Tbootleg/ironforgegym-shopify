@@ -47,11 +47,11 @@
   color: #c4c4c4;
 }
 @media screen and (max-width: 750px) {
-  .gettouch-section .container .row .col-md-4 {
+  .iron-forge-footer-section .container .row .col-md-4 {
     flex: 100%;
     max-width: 100%;
   }
-  .gettouch-section .container .row hide-col-md-4{
+  .iron-forge-footer-section .container .row hide-col-md-4{
     display:none;
   }
 }
