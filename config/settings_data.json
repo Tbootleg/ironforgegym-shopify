@@ -119,6 +119,8 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
+    "checkout_logo_image": "shopify:\/\/shop_images\/IFG_2_2.png",
+    "checkout_logo_size": "medium",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -130,6 +132,16 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "get-in-touch": {
+        "type": "get-in-touch",
+        "settings": {
+        }
+      },
+      "iron-forge-footer": {
+        "type": "iron-forge-footer",
+        "settings": {
         }
       }
     },
