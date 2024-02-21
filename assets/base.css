@@ -2772,6 +2772,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 .js details > .header__submenu {
   opacity: 0;
   transform: translateY(-1.5rem);
+  background: #b3252c;
 }
 
 details[open] > .header__submenu {
