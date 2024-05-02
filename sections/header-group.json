@@ -14,6 +14,7 @@
         },
         "announcement_GdLyLe": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "MAY THE FORGE BE WITH YOU PRE ORDER RUNS UNTIL MAY 8TH",
             "link": ""
